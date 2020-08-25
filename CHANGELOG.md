@@ -2,12 +2,15 @@
 
 ## 2.0.0-beta.15
 
+- Added `image-comparer` component
 - Added `--width`, `--height`, and `--thumb-size` custom props to `sl-switch`
 - Fixed an `aria-labelledby` attribute typo in a number of components
 - Fixed a bug where the `change` event wasn't updating the value in `sl-input`
 - Fixed a bug where `sl-color-picker` had the wrong border color in the dark theme
 - Fixed a bug where `sl-menu-item` had the wrong color in dark mode when disabled
 - Fixed a bug where WebKit's autocomplete styles made inputs looks broken
+- Fixed a bug where aria labels were wrong in `sl-select`
+- Fixed a bug where clicking the label wouldn't focus the control in `sl-select`
 
 ## 2.0.0-beta.14
 
